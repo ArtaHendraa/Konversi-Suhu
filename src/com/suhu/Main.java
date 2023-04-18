@@ -2,6 +2,7 @@ package com.suhu;
 
 import java.util.Scanner;
 
+
 public class Main {
     public static void main(String[] args) {
         Scanner userInput;
@@ -88,9 +89,10 @@ public class Main {
                 default:
                     System.out.println("Pilihan tidak ada");
                     break;
-            }
+                }
             isContinue = getYesOrNO("Apakah Anda Ingin Melanjutkan Pengkonversian? : ");
         }
+        userInput.close();
 
     }
     public static void clearScreen() {
@@ -111,9 +113,10 @@ public class Main {
         String userChoice = terminalInput.next();
         
         while (!userChoice.equalsIgnoreCase("yes") && !userChoice.equalsIgnoreCase("no")){
-            System.err.println("Tolong pilih yes atau no");
+            System.err.println("please choice yes or no");
             System.out.println("\n" + massage + "(yes/no)? ");
             userChoice = terminalInput.next();
+            terminalInput.close();
         }
         return userChoice.equalsIgnoreCase("yes");
     }
