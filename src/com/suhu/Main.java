@@ -116,7 +116,7 @@ public class Main {
             System.err.println("please choice yes or no");
             System.out.println("\n" + massage + "(yes/no)? ");
             userChoice = terminalInput.next();
-            terminalInput.close();
+//             terminalInput.close();
         }
         return userChoice.equalsIgnoreCase("yes");
     }
