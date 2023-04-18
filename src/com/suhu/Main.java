@@ -103,7 +103,7 @@ public class Main {
                 System.out.print("\033\143");
             }
         } catch (Exception e){
-            System.err.println("you can't clear screen");
+            System.err.println("Maaf, Terminal Tidak Bisa Di Bersihkan!");
         }
     }
 
@@ -113,7 +113,7 @@ public class Main {
         String userChoice = terminalInput.next();
         
         while (!userChoice.equalsIgnoreCase("yes") && !userChoice.equalsIgnoreCase("no")){
-            System.err.println("please choice yes or no");
+            System.err.println("Tolong pilih yes atau no");
             System.out.println("\n" + massage + "(yes/no)? ");
             userChoice = terminalInput.next();
         }
