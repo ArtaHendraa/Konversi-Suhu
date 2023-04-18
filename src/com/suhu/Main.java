@@ -32,7 +32,6 @@ public class Main {
                     System.out.println(" Celsius --> Fahrenheit");
                     System.out.println("========================");
                     
-                    userInput = new Scanner(System.in);
                     System.out.print("Masukan Nilai Celsius : ");
                     celsius = userInput.nextDouble();
                     fahrenheit = (celsius * 1.8) + 32;
@@ -43,7 +42,6 @@ public class Main {
                     System.out.println(" Fahrenheit --> Celsius");
                     System.out.println("========================");
                     
-                    userInput = new Scanner(System.in);
                     System.out.print("Masukan Nilai Fahrenheit : ");
                     fahrenheit = userInput.nextDouble();
                     celsius = (fahrenheit - 32) * 5/9;
@@ -54,7 +52,6 @@ public class Main {
                     System.out.println(" Celsius --> kelvin");
                     System.out.println("====================");
 
-                    userInput = new Scanner(System.in);
                     System.out.print("Masukan Nilai Celsius : ");
                     celsius = userInput.nextDouble();
                     kelvin = celsius + 273.15;
@@ -65,7 +62,6 @@ public class Main {
                     System.out.println(" Fahrenheit --> Kelvin ");
                     System.out.println("========================");
 
-                    userInput = new Scanner(System.in);
                     System.out.print("Masukan Nilai Fahrenheit : ");
                     fahrenheit = userInput.nextDouble();
                     kelvin = (fahrenheit - 32) * (5.0/9.0) + 273.15;
@@ -76,7 +72,6 @@ public class Main {
                     System.out.println(" Kelvin --> Celsius ");
                     System.out.println("=====================");
 
-                    userInput = new Scanner(System.in);
                     System.out.print("Masukan Nilai Kelvin : ");
                     kelvin = userInput.nextDouble();
                     celsius = kelvin - 273.15;
@@ -87,7 +82,6 @@ public class Main {
                     System.out.println(" Kelvin --> Fahrenheit ");
                     System.out.println("========================");
 
-                    userInput = new Scanner(System.in);
                     System.out.print("Masukan Nilai Kelvin : ");
                     kelvin = userInput.nextDouble();
                     fahrenheit = (kelvin - 273.15) * (9.0 / 5.0) + 32;
